@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>Calculator staffcop resources</title>
+	  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <script defer src="./static/lib/js/jquery-3.2.1.min.js"></script>
+    <script defer src="./static/js/main.js"></script>
+    <link href="./static/css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+      </div>
+      <div class="body">
+        <div>
+          <input value="5" id="number" class="input"> сколько пк?
+        </div>
+        <br>
+        <div>
+          <input value="3" id="time" class="input">  сколько месяцев храним?
+        </div>
+        <br>
+        <div>
+          <select id="select" class="input">
+            <option value="1">Только рабочее время</option>
+            <option value="3">Скайп, скрины</option>
+            <option value="10">Все что можно</option>
+          </select>
+        </div>
+        <br>
+        <div id="calculation" class="button">Посчитать!</div>
+        <br>
+        <div id="result"> </div>
+        <div id="mem"> </div>
+        <div id="cpu"> </div>
+        <div id="etc"> </div>
+      </div>
+      <div class="footer">
+      </div>
+    </div>
+  </body>
+</html>
